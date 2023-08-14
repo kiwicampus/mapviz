@@ -2,6 +2,17 @@
 Changelog for package mapviz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.2 (2023-06-07)
+------------------
+* Add ros_environment as dependency
+* Iron Compatibility (`#779 <https://github.com/swri-robotics/mapviz/issues/779>`_)
+* Contributors: David Anthony
+
+2.2.1 (2023-05-30)
+------------------
+* Updating maintainers list (`#778 <https://github.com/swri-robotics/mapviz/issues/778>`_)
+* Contributors: David Anthony
+
 2.1.0 (2020-10-22)
 ------------------
 * ROS Foxy support (`#695 <https://github.com/swri-robotics/mapviz/issues/695>`_)

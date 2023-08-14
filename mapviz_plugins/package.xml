@@ -1,13 +1,14 @@
 <package format="3">
   <name>mapviz_plugins</name>
-  <version>2.1.0</version>
+  <version>2.2.2</version>
   <description>
 
     Common plugins for the Mapviz visualization tool
 
   </description>
   <author>Marc Alban</author>
-  <maintainer email="preed@swri.org">P. J. Reed</maintainer>
+  <author>P. J. Reed</author>
+  <maintainer email="swri-robotics@swri.org">Southwest Research Institute</maintainer>
   <license>BSD</license>
   <url>https://github.com/swri-robotics/mapviz</url>
 
@@ -16,6 +17,7 @@
 
   <depend>libqt5-core</depend>
   <build_depend>libqt5-opengl-dev</build_depend>
+  <build_depend>ros_environment</build_depend>
 
   <depend>ament_index_cpp</depend>
   <depend>cv_bridge</depend>

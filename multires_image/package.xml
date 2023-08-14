@@ -1,13 +1,14 @@
 <package format="3">
   <name>multires_image</name>
-  <version>2.1.0</version>
+  <version>2.2.2</version>
   <description>
 
      multires_image
 
   </description>
   <author>Marc Alban</author>
-  <maintainer email="preed@swri.org">P. J. Reed</maintainer>
+  <author>P. J. Reed</author>
+  <maintainer email="swri-robotics@swri.org">Southwest Research Institute</maintainer>
   <license>BSD</license>
   <url>https://github.com/swri-robotics/mapviz</url>
 

@@ -84,7 +84,7 @@ namespace mapviz_plugins
     ui_.color->setColor(Qt::green);
     // Set background white
     QPalette p(config_widget_->palette());
-    p.setColor(QPalette::Background, Qt::white);
+    p.setColor(QPalette::Window, Qt::white);
     config_widget_->setPalette(p);
     // Set status text red
     QPalette p3(ui_.status->palette());
@@ -130,12 +130,12 @@ namespace mapviz_plugins
       {
         route_topic_ = ui_.topic->text().toStdString();
         route_pub_.reset();
-        route_pub_ = node_->create_publisher<swri_route_util::Route>(
+        route_pub_ = node_->create_publisher<marti_nav_msgs::msg::Route>(
           route_topic_,
           rclcpp::QoS(1));
       }
 
-      route_pub_->publish(*route_preview_);
+      route_pub_->publish(*route_preview_->toMsgPtr());
     }
   }
 
